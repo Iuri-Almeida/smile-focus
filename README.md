@@ -25,7 +25,7 @@
 
 Estou me desafiando a desenvolver a cada dia um projeto com qualquer tipo de funcionalidade. Esse é o Desafio de número 04 e espero que venham muitos pela frente 😁 🚀 💜
 
-Esse projeto tem a funcionalidade de um <b>foco</b>. Aqui, os olhos do rosto sempre estarão focados no <i>cursor do mouse</i>.
+Esse projeto tem a funcionalidade de <b>foco</b>. Aqui, os olhos do rosto sempre estarão focados no <i>cursor do mouse</i>.
 
 </p>
 

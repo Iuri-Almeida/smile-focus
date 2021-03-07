@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+:root {
+  --yellow: yellow;
+  --black: black;
+  --white: #fff;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+
+  background: var(--black);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#head {
+  width: 20rem;
+  height: 20rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+
+  background: var(--yellow);
+
+  border-radius: 50%;
+}
+
+#eyes,
+#mouth {
+  width: 100%;
+  height: 100%;
+}
+
+.left-eye,
+.right-eye {
+  width: 7rem;
+  height: 7rem;
+
+  position: absolute;
+
+  top: 37%;
+
+  background: var(--white);
+
+  border-radius: 50%;
+}
+
+.left-eye {
+  left: 41.5%;
+}
+
+.right-eye {
+  right: 41.5%;
+}
+
+.pupil {
+  width: 50%;
+  height: 50%;
+
+  position: relative;
+
+  left: 25%;
+
+  background: var(--black);
+
+  border-radius: 50%;
+
+  transform-origin: bottom;
+}
+
+#mouth {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#mouth div {
+  width: 70%;
+  height: 60%;
+
+  background: var(--white);
+
+  border-radius: 0 0 10rem 10rem;
+}
